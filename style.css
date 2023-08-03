@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+body {
+    text-align: center;
+}
+
+.boxContainer {
+    text-align: center;
+    width: 100%;
+}
+
+/*Box-1 Styles*/
+.box1 {
+    width: 400px;
+    height: 350px;
+    line-height: 50px;
+    text-align: left;
+    background-color: #1de592;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.box1Middle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box1 label {
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+.box1 p {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+.box1 button {
+    height: 50px;
+    width: 190px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+/*Box-2 Styles*/
+.box2 {
+    width: 400px;
+    height: 220px;
+    border: 1px solid lightgray;
+    border-bottom-width: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.box2Middle {
+    text-align: left;
+}
+
+.box2Middle h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.box2Middle h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    color: gray;
+    line-height: 25px;
+}
+
+.box2Imagecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.box2Image1,
+.box2Image2 {
+    width: 60px;
+}
+
+.box2foot {
+    height: 40px;
+    width: 415px;
+    margin: 0px 50px 15px 50px;
+    padding: 0px 20px 10px 5px;
+    border: 1px solid lightgray;
+    border-radius: 0 0 10px 10px;
+    text-align: left;
+}
+
+.box2foot p {
+    padding: 0 0 0 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #3280ea;
+    font-weight: bold;
+}
+
+
+/*Box-3 styles*/
+.box3 {
+    width: 400px;
+    height: 570px;
+    margin: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.box3img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.box3middle {
+    text-align: left;
+}
+
+.box3Content {
+    height: 300px;
+    padding: 10px;
+    margin: 15px;
+    text-align: left;
+}
+
+.box3contenttop {
+    display: flex;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 22px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.content1 {
+    font-size: 15px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.content2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.content3 {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 0;
+}
+
+.box3button {
+    height: 40px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: #3280ea;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+/*Box-4 styles*/
+.box4 {
+    height: 700px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.box4img {
+    width: 280px;
+    margin-bottom: 35px;
+}
+
+.text1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.inputboxes {
+    margin-top: 50px;
+}
+
+.inputtext {
+    height: 55px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-radius: 13px;
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.inputbox1,
+.inputbox2 {
+    margin: 15px;
+}
+
+.inputbox1 {
+    margin-top: 40px;
+}
+
+.box4btn {
+    margin-top: 30px;
+    border: 0;
+    height: 50px;
+    width: 220px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box4Footer1 {
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    line-height: 13px;
+    font-size: 15px;
+}
+
+.footertext {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer2 {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.text2 {
+    text-decoration: underline;
+}
